@@ -1,3 +1,4 @@
+# zero replicas and one shard
 curl -XPUT 'localhost:9200/_template/no_replicas?pretty' -H 'Content-Type: application/json' -d'
 {
   "order": 0,
